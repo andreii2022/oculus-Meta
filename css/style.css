@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'Helvitica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   src: url(../fonts/helvetica.woff2);
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: 'Helvitica-Bold', sans-serif;
+  font-family: 'Helvetica-Bold', sans-serif;
   src: url(../fonts/helvetica-bold.woff2);
   font-style: normal;
   font-weight: 700;
@@ -42,7 +42,7 @@ img{
 }
 
 body{
-  font-family: 'Helvitica', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
@@ -54,8 +54,8 @@ body{
 }
 
 .nav{
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
   height: 80px;
 }
@@ -65,8 +65,13 @@ body{
   gap: 0 20px;
 }
 
+.logo{
+  justify-self: center;
+}
+
 .basket{
   position: relative;
+  justify-self: end;
 }
 .basket span{
   font-size: 11px;
@@ -94,6 +99,7 @@ body{
   padding-top: 16%;
   font-size: 96px;
   margin-bottom: 10px;
+  font-weight: 400;
 }
 .subtitle{
   font-size: 36px;
@@ -121,6 +127,7 @@ body{
 .buy-btn__text{
   color: #F6F4F5;
   padding: 20px 110px;
+  text-transform: uppercase;
 
 }
 
@@ -133,6 +140,74 @@ body{
   padding-top: 6px;
   font-size: 13px;
 }
+
+
+/* section features */
+
+
+.features{
+  padding: 100px 0;
+}
+
+		// .features__titiles
+
+		&__titiles
+
+		// .features__title
+
+		&__title
+
+
+		// .features__text
+
+		&__text
+
+
+.container
+
+.section-title
+
+.tabs
+
+		// .tabs__btn
+
+		&__btn
+
+
+		// .tabs__btn-item
+
+		&__btn-item
+
+
+		// .tabs__content
+
+		&__content
+
+
+		// .tabs__content-item
+
+		&__content-item
+
+
+		// .tabs__content-img
+
+		&__content-img
+
+
+		// .tabs__content-box
+
+		&__content-box
+
+
+.video
+
+		// .video__btn
+
+		&__btn
+
+
+
+
 
 
 
