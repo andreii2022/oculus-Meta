@@ -599,7 +599,7 @@ margin-top: auto;
 
 
 .form__input::placeholder{
-  font-family: 'Helvetica';
+  font-family:'Helvetica';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -619,7 +619,21 @@ margin-top: auto;
   right: 0;
   bottom: 5px;
 }
+/* footer */
 
+
+.footer{
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+  margin-bottom: 44px;
+  padding: 30px;
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+  justify-self: end;
+}
 
 
 
