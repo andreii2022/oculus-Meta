@@ -649,6 +649,10 @@ margin-top: auto;
   .tabs__btn-item{
     display: block;
   }
+  .game__inner{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
 
 }
 
@@ -671,7 +675,7 @@ margin-top: auto;
     text-align: center;
     
   }
-  .features__title{
+  .features__titles{
     display: block;
   }
   .tabs__content-item{
@@ -682,13 +686,25 @@ margin-top: auto;
     height: 250px;
     margin-top: 20px;
   }
+  .game__inner{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
 }
+
+
 @media (max-width:420px) {
   .title{
     font-size: 48px;
   }
   .subtitle{
     font-size: 20px;
+  }
+  .tabs__btn{
+    column-count: 1;
+  }
+  .features__text{
+    font-size: 32px;
   }
 }
 
